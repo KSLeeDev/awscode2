@@ -13,8 +13,9 @@ phases:
       - echo Build completed
 artifacts:
   files:
-    - test.jsp
-    - index.html
+    - insert.jsp
+    - view.jsp
+    - insertPro.jsp
     - scripts/server_start.sh
     - scripts/server_stop.sh
     - appspec.yml

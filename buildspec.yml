@@ -16,6 +16,7 @@ artifacts:
     - insert.jsp
     - view.jsp
     - insertPro.jsp
+    - index.html
     - scripts/server_start.sh
     - scripts/server_stop.sh
     - appspec.yml

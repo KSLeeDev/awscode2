@@ -2,7 +2,11 @@ version: 0.0
 os: linux
 
 files:
-   - source: /test.jsp
+   - source: /insert.jsp
+     destination: /home/ec2-user/tomcat/webapps/ROOT
+   - source: /insertPro.jsp
+     destination: /home/ec2-user/tomcat/webapps/ROOT
+   - source: /view.jsp
      destination: /home/ec2-user/tomcat/webapps/ROOT
 #    - source: /index.html
 #      destination: /var/www/html
